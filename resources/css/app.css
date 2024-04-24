@@ -1,0 +1,529 @@
+@import "normalize.css";
+
+body,
+html {
+    font-family: 'Exo 2', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #FFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+.pretty-font {
+    font-family: 'Nico-Moji', sans-serif;
+}
+
+.application {
+    background: #000;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.application_background_video {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.app_content {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 300ms;
+}
+
+.app_content.started {
+    opacity: 1;
+    visibility: visible;
+}
+
+.call-to-action {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 1;
+    visibility: visible;
+    transition: 300ms;
+}
+
+.call-to-action.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.call-to-action h1,
+.login-layout h1 {
+    font-size: 46px;
+}
+
+.gradient-text {
+    background: #008AFF;
+    background: linear-gradient(to top, #008AFF 0%, #FFFFFF 66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.login-layout {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-layout > p {
+    font-size: 30px;
+    max-width: 400px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-form {
+    background: rgba(0,0,0,.7);
+    padding: 40px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.form-control {
+    min-width: 340px;
+    width: 100%;
+    font-size: 24px;
+    margin: 15px 0;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 0;
+    background: #FFF;
+    outline: none;
+    box-shadow: 0 0 20px 0 #FFFFFF;
+}
+
+.login-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 10px 60px;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.btn-primary {
+    background: #19A0BD;
+    box-shadow: 0 0 20px 0 #19A0BD;
+    color: #FFF;
+}
+
+.btn-success {
+    background: #42A315;
+    box-shadow: 0 0 20px 0 #42A315;
+    color: #FFF;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 10px 0 #19A0BD
+}
+
+.btn-success:hover {
+    box-shadow: 0 0 10px 0 #42A315
+}
+
+a {
+    color: #19A0BD;
+    text-decoration: none;
+}
+
+.router-animation {
+    transition: 300ms;
+    opacity: 1;
+    visibility: visible;
+}
+
+.router-animation.on {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.planets-area,
+.vitalina {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.planet {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px;
+    transition: 300ms;
+    cursor: pointer;
+    max-width: 300px;
+    text-align: center;
+}
+
+.planet img {
+    width: 100%;
+}
+
+.planet span {
+    display: block;
+    background: #008AFF;
+    background: linear-gradient(to top, #008AFF 0%, #FFFFFF 66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.planet:hover {
+    transform: scale(1.05);
+}
+
+.planet.planet_math {
+    top: 250px;
+    left: 100px;
+}
+
+.planet.planet_geo {
+    bottom: 75px;
+    left: 600px;
+}
+
+.planet.planet_language {
+    top: 70px;
+    left: 1000px;
+}
+
+.planet.planet_vitalina {
+    bottom: 50px;
+    right: 50px;
+}
+
+.under-construction {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.under-construction h1 {
+    margin-bottom: 30px;
+}
+
+@keyframes centeredBounce {
+    0% {
+        transform: translate(-50%, 0);
+    }
+    50% {
+        transform: translate(-50%, 15px);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
+}
+
+.vitalina-area {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    bottom: 0;
+    animation: centeredBounce infinite 3s;
+}
+
+.vitalina-area .vitalina-last-response {
+    position: absolute;
+    bottom: 630px;
+    right: -50px;
+}
+
+.vitalina-image {
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 50%;*/
+    width: 100%;
+}
+
+.vitalina-last-response {
+    border-radius: 1.15rem;
+    line-height: 1.25;
+    width: 300px;
+    padding: 0.5rem .875rem;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.vitalina-last-response .message {
+    max-height: 200px;
+    overflow: auto;
+    padding-right: 10px;
+}
+
+.vitalina-last-response {
+    margin: 0.5rem 0;
+    align-items: flex-start;
+    background-color: #e5e5ea;
+    color: #000;
+}
+
+ .vitalina-question {
+     position: absolute;
+     bottom: 80px;
+     width: 500px;
+     left: 50%;
+     transform: translateX(-50%);
+     text-align: center;
+ }
+
+ .vitalina-button {
+     position: absolute;
+     bottom: 30px;
+     left: 50%;
+     transform: translateX(-50%);
+ }
+
+ .back-btn {
+     position: fixed;
+     bottom: 30px;
+     right: 30px;
+     transition: 300ms;
+ }
+
+.back-btn:hover {
+    transform: scale(1.1) rotate(-10deg);
+}
+
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #000000;
+}
+::-webkit-scrollbar-track {
+    background: #666666;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+    background: #666666;
+}
+::-webkit-scrollbar-track:active {
+    background: #333333;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+.weird-resolution {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 30px;
+    z-index: 1000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0,0,0,.8);
+    backdrop-filter: blur(15px);
+    padding: 30px;
+    transition: 300ms;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.user-info {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 30px;
+}
+
+@media (max-width: 1600px) {
+    .weird-resolution {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.game-interface {
+    user-select: none;
+}
+
+.loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 300ms;
+    opacity: 0;
+    visibility: visible;
+}
+
+.loader.on {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+.game-page-vitalina .vitalina-area {
+    width: 1250px;
+}
+
+.in-game-vitalina {
+    max-width: 480px;
+    position: absolute;
+    bottom: 0;
+}
+
+.game-question {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    text-align: center;
+}
+
+.game-question .answers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-question .answer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 30px;
+    background: rgba(0,0,0,.7);
+    backdrop-filter: blur(15px);
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.game-question .answer:hover {
+    transform: translateY(-15px);
+}
+
+.in-game-score {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    font-size: 36px;
+}
+
+.game-finish-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1.5);
+}
+
+.leaderboard {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    z-index: 10;
+}
+
+.leaderboard td, .leaderboard th {
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.leaderboard-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.leaderboard-table-wrapper {
+    max-height: 300px;
+    max-width: 600px;
+    overflow: auto;
+    background: rgba(0,0,0,.6);
+    padding: 30px;
+}
+
+.logout {
+    background: transparent;
+    border: 0;
+    color: #FFF;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
