@@ -1,8 +1,9 @@
-import {useEffect, useRef, useState} from "react";
+import {useRef, useState} from "react";
 import playActionSound from "@/Helpers/play_action_sound.js";
 import goFullScreen from "@/Helpers/goFullScreen.js";
 import playKeyboardSound from "@/Helpers/play_keyboard_sound.js";
 import {Link, router, usePage} from "@inertiajs/react";
+import Lore from "@/Components/Lore.jsx";
 
 export default function AppLayout({children}) {
 
@@ -27,11 +28,11 @@ export default function AppLayout({children}) {
         }
     }
 
-    router.on('start', (event) => {
+    router.on('start', () => {
         setTransitioning(true)
     })
 
-    router.on('finish', (event) => {
+    router.on('finish', () => {
         setTransitioning(false)
     })
 
@@ -51,8 +52,7 @@ export default function AppLayout({children}) {
             </audio>
 
             <div onClick={startApplication} className={ appStarted ? "call-to-action hidden" : "call-to-action" }>
-                <h1 className="pretty-font gradient-text">Wonderland of Wisdom</h1>
-                <p>Press anywhere to start the application</p>
+                <Lore/>
             </div>
 
             <div className={transitioning ? "loader on" : "loader"}>
@@ -63,6 +63,7 @@ export default function AppLayout({children}) {
                 <div className={ appStarted ? "app_content started" : "app_content" }>
                     { auth.user !== null ? (<div className="user-info pretty-font">Hello, { auth.user.name }</div>) : (<></>) }
                     { auth.user !== null ? (<Link className="logout pretty-font" href={route('logout')} method="post" as="button">Logout</Link>) : (<></>) }
+
                     {children}
                 </div>
             </div>

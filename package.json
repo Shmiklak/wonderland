@@ -21,6 +21,7 @@
     },
     "dependencies": {
         "normalize.css": "^8.0.1",
+        "react-type-animation": "^3.2.0",
         "sweetalert2": "^11.10.8"
     }
 }

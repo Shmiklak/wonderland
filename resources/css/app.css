@@ -347,12 +347,12 @@ a {
   height: 4px;
 }
 ::-webkit-scrollbar-button {
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
 }
 ::-webkit-scrollbar-thumb {
     background: #e1e1e1;
-    border: 0px none #ffffff;
+    border: 0 none #ffffff;
     border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -363,7 +363,7 @@ a {
 }
 ::-webkit-scrollbar-track {
     background: #666666;
-    border: 0px none #ffffff;
+    border: 0 none #ffffff;
     border-radius: 50px;
 }
 ::-webkit-scrollbar-track:hover {
@@ -526,4 +526,44 @@ a {
     font-size: 30px;
     z-index: 10;
     cursor: pointer;
+}
+
+.lore-box {
+    position: fixed;
+    width: 80vw;
+    height: auto;
+    font-size: 18px;
+    /*overflow: auto;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    /*background: rgba(0, 0, 0, 0.8);*/
+    z-index: 100;
+    transition: 300ms;
+    text-align: center;
+}
+
+.lore-box.inactive {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.starting-animation {
+    animation: fade 1.5s infinite;
+    margin-top: 50px;
 }
