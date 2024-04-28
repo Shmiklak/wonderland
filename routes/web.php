@@ -23,7 +23,7 @@ Route::get('/dashboard', [HomeController::class, 'dashboard'])->middleware(['aut
 Route::get('/vitalina', [HomeController::class, 'vitalina'])->middleware(['auth', 'verified'])->name('vitalina');
 Route::get('/math', [HomeController::class, 'math'])->middleware(['auth', 'verified'])->name('math');
 Route::get('/language', [HomeController::class, 'languages'])->middleware(['auth', 'verified'])->name('language');
-Route::get('/geo', [HomeController::class, 'languages'])->middleware(['auth', 'verified'])->name('geo');
+Route::get('/geo', [HomeController::class, 'geo'])->middleware(['auth', 'verified'])->name('geo');
 Route::get('/game/{code}', [HomeController::class, 'game'])->middleware(['auth', 'verified'])->name('game');
 
 require __DIR__.'/auth.php';

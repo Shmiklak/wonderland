@@ -1,0 +1,101 @@
+id,question,correct_answer,answer_variant_2,answer_variant_3
+1,What is the Russian translation of 'coat'?,пальто,шапка,ученик
+2,What is the Russian translation of 'dog'?,собака,тетрадь,ученик
+3,What is the Russian translation of 'moon'?,луна,парта,очки
+4,What is a synonym for 'small'?,tiny,little,miniature
+5,What is an antonym for 'strong'?,fragile,feeble,frail
+6,What is a synonym for 'big'?,large,gigantic,large
+7,What is an antonym for 'happy'?,depressed,miserable,sad
+8,What is a synonym for 'slow'?,sluggish,sluggish,leisurely
+9,What is an antonym for 'fast'?,sluggish,sluggish,slow
+10,What is the Russian translation of 'notebook'?,тетрадь,карандаш,небо
+11,What is the Russian translation of 'glasses'?,очки,парта,школа
+12,What is an antonym for 'happy'?,unhappy,sad,unhappy
+13,What is the Russian translation of 'mirror'?,зеркало,луна,шарф
+14,What is an antonym for 'bright'?,dull,dim,gloomy
+15,What is an antonym for 'bright'?,dim,dull,dark
+16,What is a synonym for 'sad'?,unhappy,miserable,depressed
+17,What is an antonym for 'strong'?,feeble,weak,feeble
+18,What is a synonym for 'small'?,miniature,little,miniature
+19,What is the Russian translation of 'friend'?,друг,перчатки,учитель
+20,What is a synonym for 'sad'?,depressed,depressed,unhappy
+21,What is a synonym for 'happy'?,content,joyful,content
+22,What is an antonym for 'hot'?,cold,cool,cold
+23,What is a synonym for 'cold'?,freezing,freezing,cool
+24,What is a synonym for 'cold'?,freezing,chilly,freezing
+25,What is an antonym for 'fast'?,leisurely,delayed,sluggish
+26,What is the Russian translation of 'ball'?,мяч,окно,кот
+27,What is the Russian translation of 'fish'?,рыба,шапка,туфли
+28,What is the Russian translation of 'book'?,книга,картина,телефон
+29,What is the Russian translation of 'school'?,школа,ручка,тетрадь
+30,What is the Russian translation of 'house'?,дом,рыба,лампа
+31,What is the Russian translation of 'earth'?,земля,учитель,стол
+32,What is a synonym for 'strong'?,mighty,robust,mighty
+33,What is a synonym for 'cold'?,freezing,freezing,chilly
+34,What is the Russian translation of 'pants'?,брюки,дверь,картина
+35,What is a synonym for 'weak'?,frail,fragile,frail
+36,What is a synonym for 'dark'?,dim,shadowy,dim
+37,What is a synonym for 'strong'?,mighty,powerful,robust
+38,What is an antonym for 'strong'?,feeble,feeble,frail
+39,What is a synonym for 'fast'?,quick,swift,quick
+40,What is the Russian translation of 'watch'?,часы,компьютер,брюки
+41,What is the Russian translation of 'sun'?,солнце,ручка,кресло
+42,What is the Russian translation of 'school'?,школа,туфли,собака
+43,What is the Russian translation of 'coat'?,пальто,машина,небо
+44,What is a synonym for 'small'?,miniature,tiny,little
+45,What is an antonym for 'hot'?,cold,freezing,chilly
+46,What is a synonym for 'sad'?,depressed,miserable,unhappy
+47,What is the Russian translation of 'fish'?,рыба,перчатки,цветок
+48,What is the Russian translation of 'ball'?,мяч,носки,сумка
+49,What is an antonym for 'happy'?,sad,sad,depressed
+50,What is an antonym for 'strong'?,weak,frail,weak
+51,What is a synonym for 'big'?,large,large,huge
+52,What is an antonym for 'happy'?,sad,depressed,sad
+53,What is the Russian translation of 'bag'?,сумка,картина,окно
+54,What is an antonym for 'fast'?,leisurely,leisurely,sluggish
+55,What is an antonym for 'fast'?,sluggish,leisurely,delayed
+56,What is a synonym for 'cold'?,cool,chilly,cool
+57,What is an antonym for 'happy'?,miserable,sad,miserable
+58,What is an antonym for 'happy'?,sad,sad,unhappy
+59,What is an antonym for 'bright'?,dull,dull,dark
+60,What is the Russian translation of 'pencil'?,карандаш,ремень,парта
+61,What is an antonym for 'fast'?,leisurely,delayed,slow
+62,What is the Russian translation of 'car'?,машина,книга,вода
+63,What is the Russian translation of 'music'?,музыка,ученик,кот
+64,What is the Russian translation of 'ball'?,мяч,луна,туфли
+65,What is the Russian translation of 'fish'?,рыба,компьютер,брюки
+66,What is the Russian translation of 'cat'?,кот,школа,брюки
+67,What is the Russian translation of 'desk'?,парта,ученик,собака
+68,What is an antonym for 'hot'?,freezing,cool,cold
+69,What is a synonym for 'fast'?,quick,rapid,quick
+70,What is a synonym for 'hot'?,burning,scorching,burning
+71,What is the Russian translation of 'house'?,дом,рубашка,туфли
+72,What is an antonym for 'hot'?,cold,cool,freezing
+73,What is an antonym for 'big'?,miniature,little,tiny
+74,What is an antonym for 'bright'?,dull,gloomy,dull
+75,What is a synonym for 'hot'?,warm,warm,burning
+76,What is the Russian translation of 'car'?,машина,ремень,машина
+77,What is the Russian translation of 'lamp'?,лампа,картина,птица
+78,What is an antonym for 'big'?,little,little,small
+79,What is the Russian translation of 'music'?,музыка,рубашка,звезда
+80,What is an antonym for 'strong'?,fragile,feeble,fragile
+81,What is the Russian translation of 'shirt'?,рубашка,школа,цветок
+82,What is an antonym for 'strong'?,frail,weak,feeble
+83,What is the Russian translation of 'school'?,школа,книга,очки
+84,What is a synonym for 'bright'?,radiant,luminous,shiny
+85,What is an antonym for 'bright'?,dark,dull,dim
+86,What is a synonym for 'dark'?,dim,gloomy,dim
+87,What is an antonym for 'hot'?,cold,cold,chilly
+88,What is an antonym for 'big'?,little,tiny,little
+89,What is the Russian translation of 'window'?,окно,птица,дерево
+90,What is an antonym for 'bright'?,dim,dim,dull
+91,What is a synonym for 'slow'?,leisurely,delayed,sluggish
+92,What is the Russian translation of 'friend'?,друг,шарф,дом
+93,What is the Russian translation of 'coat'?,пальто,шапка,лампа
+94,What is the Russian translation of 'cat'?,кот,телефон,парта
+95,What is a synonym for 'dark'?,dim,dim,shadowy
+96,What is the Russian translation of 'book'?,книга,очки,птица
+97,What is a synonym for 'big'?,gigantic,huge,large
+98,What is the Russian translation of 'glasses'?,очки,карандаш,очки
+99,What is the Russian translation of 'fish'?,рыба,шарф,ремень
+100,What is the Russian translation of 'moon'?,луна,собака,цветок

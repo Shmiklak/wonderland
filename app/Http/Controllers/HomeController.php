@@ -33,7 +33,17 @@ class HomeController extends Controller
     }
 
     public function languages() {
-        return Inertia::render('UnderConstruction');
+        $leaderboard = GameResult::where('game_code', 'lang')->with('user')->orderBy('result', 'DESC')->get();
+        return Inertia::render('Languages', [
+            'leaderboard' => $leaderboard
+        ]);
+    }
+
+    public function geo() {
+        $leaderboard = GameResult::where('game_code', 'geo')->with('user')->orderBy('result', 'DESC')->get();
+        return Inertia::render('Geo', [
+            'leaderboard' => $leaderboard
+        ]);
     }
 
     public function game($code) {

@@ -99,20 +99,20 @@ antonyms = {
 
 # Function to generate a translation question
 def generate_translation_question():
-    english_word, russian_translation = random.choice(list(vocabulary.items()))
-    return f"What is the Russian translation of '{english_word}'?", russian_translation, *random.sample(vocabulary.values(), 2)
+    english_word, russian_translation = random.choice(sorted(vocabulary.items()))
+    return f"What is the Russian translation of {english_word}?", russian_translation, *random.sample(sorted(vocabulary.values()), 2)
 
 # Function to generate a synonym question
 def generate_synonym_question():
     word = random.choice(sorted(synonyms.keys()))
     synonym = random.choice(synonyms[word])
-    return f"What is a synonym for '{word}'?", synonym, *random.sample(synonyms[word], 2)
+    return f"What is a synonym for {word}?", synonym, *random.sample(synonyms[word], 2)
 
 # Function to generate an antonym question
 def generate_antonym_question():
-    word = random.choice(sorted(synonyms.keys()))
+    word = random.choice(sorted(antonyms.keys()))
     antonym = random.choice(antonyms[word])
-    return f"What is an antonym for '{word}'?", antonym, *random.sample(antonyms[word], 2)
+    return f"What is an antonym for {word}?", antonym, *random.sample(antonyms[word], 2)
 
 # Generate 100 questions
 questions = []
@@ -122,8 +122,8 @@ while len(questions) < 100:
         question = generate_translation_question()
     elif question_type == 'synonym':
         question = generate_synonym_question()
-    else:
-        question = generate_antonym_question()
+    # else:
+    #     question = generate_antonym_question()
     if question not in questions:
         questions.append(question)
 

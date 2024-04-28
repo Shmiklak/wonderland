@@ -1,0 +1,101 @@
+id,question,correct_answer,answer_variant_2,answer_variant_3,game_code
+701,What is the Russian translation of desk?,парта,цветок,сумка,lang
+702,What is the Russian translation of fish?,рыба,часы,дом,lang
+703,What is a synonym for dark?,shadowy,shadowy,gloomy,lang
+704,What is the Russian translation of pants?,брюки,рубашка,луна,lang
+705,What is the Russian translation of watch?,часы,мяч,рыба,lang
+706,What is the Russian translation of flower?,цветок,туфли,кот,lang
+707,What is the Russian translation of mirror?,зеркало,кровать,брюки,lang
+708,What is the Russian translation of ball?,мяч,зеркало,кресло,lang
+709,What is the Russian translation of shirt?,рубашка,яблоко,стол,lang
+710,What is the Russian translation of glasses?,очки,музыка,ученик,lang
+711,What is the Russian translation of coat?,пальто,телефон,картина,lang
+712,What is the Russian translation of sky?,небо,собака,часы,lang
+713,What is a synonym for bright?,luminous,radiant,shiny,lang
+714,What is a synonym for big?,gigantic,gigantic,huge,lang
+715,What is the Russian translation of notebook?,тетрадь,брюки,рубашка,lang
+716,What is a synonym for weak?,frail,feeble,frail,lang
+717,What is the Russian translation of bird?,птица,мяч,школа,lang
+718,What is a synonym for sad?,unhappy,unhappy,depressed,lang
+719,What is the Russian translation of socks?,носки,яблоко,парта,lang
+720,What is the Russian translation of scarf?,шарф,шапка,учитель,lang
+721,What is the Russian translation of moon?,луна,карандаш,рубашка,lang
+722,What is a synonym for weak?,feeble,fragile,frail,lang
+723,What is the Russian translation of fish?,рыба,пальто,ремень,lang
+724,What is the Russian translation of clock?,часы,машина,ученик,lang
+725,What is the Russian translation of friend?,друг,перчатки,луна,lang
+726,What is the Russian translation of bed?,кровать,перчатки,часы,lang
+727,What is a synonym for happy?,glad,joyful,content,lang
+728,What is the Russian translation of music?,музыка,кресло,стол,lang
+729,What is a synonym for big?,huge,gigantic,large,lang
+730,What is a synonym for big?,huge,huge,gigantic,lang
+731,What is a synonym for cold?,cool,freezing,cool,lang
+732,What is the Russian translation of chair?,кресло,перчатки,стол,lang
+733,What is a synonym for weak?,fragile,fragile,frail,lang
+734,What is a synonym for hot?,scorching,warm,burning,lang
+735,What is a synonym for slow?,delayed,delayed,leisurely,lang
+736,What is the Russian translation of socks?,носки,перчатки,кресло,lang
+737,What is a synonym for cold?,freezing,chilly,freezing,lang
+738,What is a synonym for fast?,rapid,quick,swift,lang
+739,What is a synonym for slow?,leisurely,sluggish,leisurely,lang
+740,What is the Russian translation of phone?,телефон,картина,зеркало,lang
+741,What is a synonym for big?,gigantic,huge,gigantic,lang
+742,What is a synonym for cold?,chilly,chilly,freezing,lang
+743,What is the Russian translation of earth?,земля,мяч,земля,lang
+744,What is the Russian translation of ball?,мяч,часы,кот,lang
+745,What is a synonym for weak?,fragile,frail,fragile,lang
+746,What is a synonym for cold?,chilly,cool,freezing,lang
+747,What is a synonym for bright?,shiny,radiant,luminous,lang
+748,What is a synonym for cold?,freezing,chilly,cool,lang
+749,What is the Russian translation of chair?,кресло,зеркало,компьютер,lang
+750,What is a synonym for bright?,shiny,shiny,luminous,lang
+751,What is a synonym for cold?,cool,chilly,cool,lang
+752,What is the Russian translation of flower?,цветок,ремень,карандаш,lang
+753,What is a synonym for dark?,gloomy,shadowy,dim,lang
+754,What is the Russian translation of student?,ученик,ученик,кресло,lang
+755,What is the Russian translation of school?,школа,мяч,парта,lang
+756,What is a synonym for dark?,shadowy,shadowy,dim,lang
+757,What is a synonym for happy?,glad,joyful,glad,lang
+758,What is the Russian translation of picture?,картина,очки,ручка,lang
+759,What is the Russian translation of moon?,луна,кровать,машина,lang
+760,What is the Russian translation of notebook?,тетрадь,учитель,ручка,lang
+761,What is the Russian translation of bed?,кровать,ученик,часы,lang
+762,What is a synonym for big?,large,huge,large,lang
+763,What is the Russian translation of shirt?,рубашка,машина,ученик,lang
+764,What is a synonym for slow?,delayed,leisurely,delayed,lang
+765,What is the Russian translation of school?,школа,музыка,карандаш,lang
+766,What is the Russian translation of teacher?,учитель,мяч,цветок,lang
+767,What is the Russian translation of apple?,яблоко,яблоко,звезда,lang
+768,What is the Russian translation of lamp?,лампа,шарф,мяч,lang
+769,What is the Russian translation of notebook?,тетрадь,земля,носки,lang
+770,What is the Russian translation of coat?,пальто,земля,рубашка,lang
+771,What is the Russian translation of door?,дверь,парта,очки,lang
+772,What is a synonym for bright?,luminous,shiny,radiant,lang
+773,What is a synonym for strong?,mighty,powerful,robust,lang
+774,What is the Russian translation of car?,машина,шарф,небо,lang
+775,What is a synonym for slow?,sluggish,leisurely,delayed,lang
+776,What is the Russian translation of computer?,компьютер,сумка,очки,lang
+777,What is a synonym for sad?,depressed,miserable,unhappy,lang
+778,What is a synonym for strong?,powerful,robust,powerful,lang
+779,What is the Russian translation of coat?,пальто,зеркало,ручка,lang
+780,What is a synonym for cold?,chilly,freezing,cool,lang
+781,What is a synonym for hot?,burning,warm,scorching,lang
+782,What is the Russian translation of watch?,часы,рубашка,окно,lang
+783,What is a synonym for hot?,warm,burning,scorching,lang
+784,What is the Russian translation of cat?,кот,носки,кресло,lang
+785,What is the Russian translation of ball?,мяч,перчатки,ученик,lang
+786,What is the Russian translation of teacher?,учитель,дверь,небо,lang
+787,What is a synonym for sad?,unhappy,miserable,depressed,lang
+788,What is the Russian translation of shoes?,туфли,картина,дерево,lang
+789,What is the Russian translation of student?,ученик,машина,сумка,lang
+790,What is a synonym for sad?,miserable,unhappy,miserable,lang
+791,What is the Russian translation of teacher?,учитель,компьютер,брюки,lang
+792,What is a synonym for hot?,burning,warm,burning,lang
+793,What is the Russian translation of pen?,ручка,шарф,перчатки,lang
+794,What is a synonym for fast?,swift,quick,swift,lang
+795,What is a synonym for dark?,gloomy,dim,gloomy,lang
+796,What is the Russian translation of watch?,часы,яблоко,собака,lang
+797,What is a synonym for dark?,dim,dim,gloomy,lang
+798,What is a synonym for happy?,content,glad,content,lang
+799,What is a synonym for dark?,gloomy,gloomy,shadowy,lang
+800,What is the Russian translation of apple?,яблоко,брюки,ремень,lang

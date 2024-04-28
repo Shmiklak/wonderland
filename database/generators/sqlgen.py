@@ -21,7 +21,7 @@ def csv_to_sql(csv_file, table_name):
     return create_table_query, insert_query
 
 def main():
-    csv_file = "math_questions.csv"  # Change this to the path of your CSV file
+    csv_file = "geography_questions.csv"  # Change this to the path of your CSV file
     table_name = "questions"  # Change this to the desired table name
     
     create_table_query, insert_query = csv_to_sql(csv_file, table_name)
